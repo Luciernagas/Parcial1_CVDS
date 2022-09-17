@@ -19,4 +19,12 @@ Posteriormente se ejecuto el git clone:
   <img src="https://user-images.githubusercontent.com/104604359/190837916-2d5bfb39-4772-4638-a9a0-fd5ba311df0b.png" height="190px"/></p>
   
 * * *
-### Identificación de malas prácticas: 
+### Identificación de malas prácticas:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104604359/190838979-6a68cb5c-f60d-4cd8-980a-60a577cbf0d0.png" height="400px"/></p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104604359/190839259-3a5a8cc1-be7d-4338-82aa-2257275dc0cc.png" height="400px"/></p>
+
+
+
