@@ -75,4 +75,9 @@ Patrón creacional: Factory Method
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190844485-d09b2db9-61f0-47f0-bbed-c5e92105417a.png" height="342px"/></p>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104604359/190845120-c4ff3bc4-d114-4e23-bc2e-94628823ce22.png" height="342px"/></p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104604359/190845149-f4f46c51-b46f-4ab0-b0b7-3e439563b783.png" height="305px"/></p>
 
