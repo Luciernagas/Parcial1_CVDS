@@ -21,7 +21,7 @@ Posteriormente se ejecuto el git clone:
   <img src="https://user-images.githubusercontent.com/104604359/190837916-2d5bfb39-4772-4638-a9a0-fd5ba311df0b.png" height="190px"/></p>
   
 * * *
-### Identificación de malas prácticas:
+### 🐍 Identificación de malas prácticas:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190838979-6a68cb5c-f60d-4cd8-980a-60a577cbf0d0.png" height="400px"/></p>
 
@@ -35,7 +35,7 @@ git push de la solución de las malas practicas
   <img src="https://user-images.githubusercontent.com/104604359/190840372-70cff2f9-1be8-4b7f-a9a5-f2481335456c.png" height="350px"/></p>
 
 * * *
-### Unit testing
+### 🐍 Unit testing
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190840724-6f4b4e2b-2b97-4153-9b51-c53235e62f65.png" height="350px"/></p>
   
@@ -67,7 +67,7 @@ git push de la propuesta de las pruebas
 
 * * *
 
-#### Patterns
+#### 🐍 Patterns
 Patrón creacional: Factory Method
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190844138-b2a67619-7006-4e7d-bc17-0045270bb01c.png" height="300px"/></p>
