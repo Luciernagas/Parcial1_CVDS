@@ -14,60 +14,70 @@ import java.util.LinkedList;
 public class SnakeTest {
 
     @Test
-    public void snakeTest(){
+    public void dado_laPosicion_Cuando_seIniciaElJuego_Entonces_retorna25coma25(){
+        //Arrange
         SnakeGame juego = new SnakeGame(1);
         Snake snakeT = juego.getSerpiente(0);
+        int[] posEsperada = {25,25};
+        //Action
         LinkedList<int[]> posicionesSp = snakeT.getSerpiente();
-        //La primera posicion de la lista encadenada contiene
-        //las coordenadas de la cabeza de la serpiente que por defecto siempre se crea en {cantidad/2, cantidad/2}
-        int[] posEsperada = {juego.getCantidad()/2, juego.getCantidad()/2};
-        //Assert
+        //Assertion
         Assertions.assertArrayEquals(posEsperada, posicionesSp.get(0));
     }
 
     @Test
-    public void avanzarTest(){
+    public void dado_LaPosicionDespues_Cuando_esElPrimerMovimiento_Entonces_retorna25coma24() {
+        //Arrange
         SnakeGame juego = new SnakeGame(1);
         Snake snakeT = juego.getSerpiente(0);
-        //Por defecto el primer movimiento siempre es hacia adelante
+        int[] posicionEsperada = {juego.getCantidad() / 2, juego.getCantidad() / 2 - 1};
+        int[] posicion = {25, 24};
+        //Action
         snakeT.avanzar();
         LinkedList<int[]> posicionesSp = snakeT.getSerpiente();
-        int[] posicionEsperada = {juego.getCantidad()/2, juego.getCantidad()/2 - 1};
-        //Assert
-        Assertions.assertArrayEquals(posicionEsperada, posicionesSp.get(0));
-        //Cambiar la direccion hacia donde va a avanzar la serpiente
-        snakeT.cambiarDireccion("derecha");
-        snakeT.avanzar();
-        int[] posicionEsperada2 = {juego.getCantidad()/2 + 1, juego.getCantidad()/2 - 1};
-        //Assert
-        Assertions.assertArrayEquals(posicionEsperada2, posicionesSp.get(0));
+        //Assertion
+        Assertions.assertArrayEquals(posicion, posicionesSp.get(0));
     }
 
     @Test
-    public void verificarMovimiento(){
+    public void dado_SerpienteEstaViva_Cuando_ChocaContraUnMuro_Entonces_retornaFalse(){
+        //Arrange
         SnakeGame juego = new SnakeGame(1);
         Snake snakeT = juego.getSerpiente(0);
-        //Hacer avanzar hacia arriba a una serpiente hasta que se choque contra
-        //un borde para verificar que murio
+        boolean respuestaEsperada = false;
+        //Action
         for (int i = 0; i < 26; i++) {
             snakeT.avanzar();
         }
         boolean vivo = snakeT.isVivo();
-        //Assert
-        Assertions.assertFalse(vivo);
+        //Assertion
+        Assertions.assertEquals(respuestaEsperada,vivo);
     }
 
     @Test
-    public void pausarTest(){
+    public void dado_unBoolean_Cuando_ElJuegoNoEstaEnPausa_Entonces_retornaFalse(){
+        //Arrange
         SnakeGame juego = new SnakeGame(1);
         Snake snakeT = juego.getSerpiente(0);
-        //Pausar el juego
+        boolean respuestaEsperada = false;
+        //Action
         juego.pausar(true);
-        //Assert
         Assertions.assertTrue(SnakeGame.pausa);
-        //Quitar la pausa del juego
         juego.pausar(false);
-        Assertions.assertFalse(SnakeGame.pausa);
+        //Assertion
+        Assertions.assertEquals(respuestaEsperada, SnakeGame.pausa);
+    }
+
+    @Test
+    public void dado_unBoolean_Cuando_ElJuegoEstaEnPausa_Entonces_retornaTrue(){
+        //Arrange
+        SnakeGame juego = new SnakeGame(1);
+        Snake snakeT = juego.getSerpiente(0);
+        boolean respuestaEsperada = true;
+        //Action
+        juego.pausar(true);
+        //Assertion
+        Assertions.assertEquals(respuestaEsperada, SnakeGame.pausa);
     }
 
 }
