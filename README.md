@@ -16,6 +16,6 @@ Primero se efectuó el fork al repositorio seleccionado:
   
 Posteriormente se ejecuto el git clone:
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104604359/190837916-2d5bfb39-4772-4638-a9a0-fd5ba311df0b.png" height="210px"/></p>
+  <img src="https://user-images.githubusercontent.com/104604359/190837916-2d5bfb39-4772-4638-a9a0-fd5ba311df0b.png" height="190px"/></p>
   
 * * *
