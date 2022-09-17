@@ -3,11 +3,10 @@ package test;
 import dominio.Alimento;
 import dominio.Snake;
 import dominio.SnakeGame;
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import persistencia.SnakeIO;
 import presentacion.SnakeGUI;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.LinkedList;
@@ -23,7 +22,7 @@ public class SnakeTest {
         //las coordenadas de la cabeza de la serpiente que por defecto siempre se crea en {cantidad/2, cantidad/2}
         int[] posEsperada = {juego.getCantidad()/2, juego.getCantidad()/2};
         //Assert
-        Assert.assertArrayEquals(posEsperada, posicionesSp.get(0));
+        Assertions.assertArrayEquals(posEsperada, posicionesSp.get(0));
     }
 
     @Test
@@ -35,13 +34,13 @@ public class SnakeTest {
         LinkedList<int[]> posicionesSp = snakeT.getSerpiente();
         int[] posicionEsperada = {juego.getCantidad()/2, juego.getCantidad()/2 - 1};
         //Assert
-        Assert.assertArrayEquals(posicionEsperada, posicionesSp.get(0));
+        Assertions.assertArrayEquals(posicionEsperada, posicionesSp.get(0));
         //Cambiar la direccion hacia donde va a avanzar la serpiente
         snakeT.cambiarDireccion("derecha");
         snakeT.avanzar();
         int[] posicionEsperada2 = {juego.getCantidad()/2 + 1, juego.getCantidad()/2 - 1};
         //Assert
-        Assert.assertArrayEquals(posicionEsperada2, posicionesSp.get(0));
+        Assertions.assertArrayEquals(posicionEsperada2, posicionesSp.get(0));
     }
 
     @Test
@@ -55,7 +54,7 @@ public class SnakeTest {
         }
         boolean vivo = snakeT.isVivo();
         //Assert
-        Assert.assertFalse(vivo);
+        Assertions.assertFalse(vivo);
     }
 
     @Test
@@ -65,10 +64,10 @@ public class SnakeTest {
         //Pausar el juego
         juego.pausar(true);
         //Assert
-        Assert.assertTrue(SnakeGame.pausa);
+        Assertions.assertTrue(SnakeGame.pausa);
         //Quitar la pausa del juego
         juego.pausar(false);
-        Assert.assertFalse(SnakeGame.pausa);
+        Assertions.assertFalse(SnakeGame.pausa);
     }
 
 }

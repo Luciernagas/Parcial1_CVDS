@@ -52,7 +52,6 @@ public class FlechaVelocidad extends Sorpresa{
      * metodo abstracto para devolver el jugador afecta al estado inicial en el momento que se acaba el tiempo de fuuncionamiento
      * @param serpiente
      */
-    @Override
     public void quitarEfecto(Snake serpiente) {
         if(this.tipo.equals("Flecha aumento")){
             serpiente.modificarTempo(40);
