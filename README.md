@@ -36,17 +36,23 @@ git push de la solución de las malas practicas
 
 * * *
 ### 🐍 Unit testing
+Identificación de mal uso de:
+1. Patrón nombramiento de las pruebas unitarias
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190840724-6f4b4e2b-2b97-4153-9b51-c53235e62f65.png" height="350px"/></p>
   
+2. Patrón AAA.
+<p align="center"> Estructura <p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190840867-bc50a53f-35cf-4c6b-b6de-4c74ac8659db.png" height="152px"/></p>
-  
+
+<p align="center"> Se hace múltiples afirmaciones(assert) <p> 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190841530-79ba2931-62e2-4aec-8a4e-25a300bd75df.png" height="296px"/></p>
+
   
 
-#### Posición:
+#### Diseño de casos de prueba (Posición):
 
 Input: N y M
 
@@ -57,9 +63,12 @@ Invalid: N = 50 || M = 50 || M = 0 || N = 0
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190843138-7a5800f0-8238-4fb2-9381-2ef5f4c41c52.png" height="70px"/></p>
   
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104604359/190844885-4884d185-69b2-4e5a-a0c5-bb52c1ed337e.png" height="290px"/></p>
-  
+![image](https://user-images.githubusercontent.com/104604359/191651588-cbef0cb6-b294-444b-adc5-1aa42e3e7c05.png)
+
+![image](https://user-images.githubusercontent.com/104604359/191651654-68603490-1e6f-4874-8edf-37b7f497e9e8.png)
+
+![image](https://user-images.githubusercontent.com/104604359/191651695-f4fdaf5c-5fa6-41e6-a8d8-fea2c0db3525.png)
+
 * * *
 git push de la propuesta de las pruebas
 <p align="center">
@@ -67,7 +76,7 @@ git push de la propuesta de las pruebas
 
 * * *
 
-#### 🐍 Patterns
+### 🐍 Patterns
 Patrón creacional: Factory Method
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190844138-b2a67619-7006-4e7d-bc17-0045270bb01c.png" height="300px"/></p>
