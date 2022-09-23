@@ -34,6 +34,29 @@ git push de la solución de las malas practicas
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190840372-70cff2f9-1be8-4b7f-a9a5-f2481335456c.png" height="350px"/></p>
 
+
+* * *
+
+### 🐍 Patterns
+Patrón creacional: Factory Method
+
+Su fin es crear objetos sin tener que especificar su clase exacta. Esto quiere decir que el objeto creado puede intercambiarse con flexibilidad y facilidad. 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104604359/191872665-c783f080-c6ee-4be6-9c2f-682958f5f11f.gif" height="300px"/></p>
+
+
+![image](https://user-images.githubusercontent.com/104604359/191859263-2b5ec900-a605-4bc1-9f1b-1cf0ce848180.png)
+
+![image](https://user-images.githubusercontent.com/104604359/191871859-b2d343f1-1418-45a8-96bc-b9595c076319.png)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104604359/190845120-c4ff3bc4-d114-4e23-bc2e-94628823ce22.png" height="342px"/></p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104604359/190845149-f4f46c51-b46f-4ab0-b0b7-3e439563b783.png" height="305px"/></p>
+
+
 * * *
 ### 🐍 Unit testing
 Identificación de mal uso de:
@@ -49,8 +72,6 @@ Identificación de mal uso de:
 <p align="center"> Se hace múltiples afirmaciones(assert) <p> 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190841530-79ba2931-62e2-4aec-8a4e-25a300bd75df.png" height="296px"/></p>
-
-  
 
 #### Diseño de casos de prueba (Posición):
 
@@ -72,21 +93,4 @@ Invalid: N = 50 || M = 50 || M = 0 || N = 0
 * * *
 git push de la propuesta de las pruebas
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104604359/190844998-c8c240cc-b66b-4f71-97d6-0f157fe6be33.png" height="350px"/></p>
-
-* * *
-
-### 🐍 Patterns
-Patrón creacional: Factory Method
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104604359/190844138-b2a67619-7006-4e7d-bc17-0045270bb01c.png" height="300px"/></p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104604359/190844485-d09b2db9-61f0-47f0-bbed-c5e92105417a.png" height="342px"/></p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104604359/190845120-c4ff3bc4-d114-4e23-bc2e-94628823ce22.png" height="342px"/></p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/104604359/190845149-f4f46c51-b46f-4ab0-b0b7-3e439563b783.png" height="305px"/></p>
-
+  <img src="https://user-images.githubusercontent.com/104604359/190844998-c8c240cc-b66b-4f71-97d6-0f157fe6be33.png" /></p>
