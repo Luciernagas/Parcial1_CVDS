@@ -5,7 +5,7 @@
   <img src="https://user-images.githubusercontent.com/104604359/190826274-4193918e-0cd6-4815-82c9-5654c7c014c0.png" height="250px"/></p>
  
 * * *
-
+### 🐍 Paso a paso GIT:
 Primero se efectuó el fork al repositorio seleccionado:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190820233-bbed1995-e6b5-452e-85a7-e73ab57d56c8.png" height="250px"/></p>
@@ -27,7 +27,14 @@ Posteriormente se ejecuto el git clone:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190839259-3a5a8cc1-be7d-4338-82aa-2257275dc0cc.png" height="300px"/></p>
+
+![image](https://user-images.githubusercontent.com/104604359/192084675-99e959db-a26b-4eb6-90bb-a3c4d81ac56c.png)
+
   
+𓆙	_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+![image](https://user-images.githubusercontent.com/104604359/192083788-0b3b9914-0bdb-4949-98ff-79cfe62c8072.png)
+
 * * *
 git push de la solución de las malas practicas
 
@@ -64,11 +71,13 @@ Su fin es crear objetos sin tener que especificar su clase exacta. Esto quiere d
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190845120-c4ff3bc4-d114-4e23-bc2e-94628823ce22.png" height="342px"/></p>
 
+En la creación de sorpresas se utiliza una lógica con números aleatorios para seleccionar los constructores de cada clase que hereda de la clase sorpresa.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190845149-f4f46c51-b46f-4ab0-b0b7-3e439563b783.png" height="305px"/></p>
   
 𓆙	_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
+Para ello podemos construir una clase que cree sorpresas de forma aleatoria.
 ![image](https://user-images.githubusercontent.com/104604359/192074628-66588b0e-a994-4865-b66d-b286fc08cfd4.png)
 
 * * *
