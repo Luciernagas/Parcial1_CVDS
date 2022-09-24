@@ -101,13 +101,15 @@ Identificación de mal uso de:
 
 Input: N y M
 
-Valid: 1 <= N  &  M <= 49
+Valid: 0 <= N  &  M <= 50
 
-Invalid: N = 50 || M = 50 || M = 0 || N = 0
+Invalid: N = 51 || M = 51 || M = -1 || N = -1
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104604359/190843138-7a5800f0-8238-4fb2-9381-2ef5f4c41c52.png" height="70px"/></p>
+  <img src="https://user-images.githubusercontent.com/104604359/192095742-eaacd697-e016-4968-96f2-5b4700003ef8.png" /></p>
   
+𓆙	_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
 ![image](https://user-images.githubusercontent.com/104604359/191651588-cbef0cb6-b294-444b-adc5-1aa42e3e7c05.png)
 
 ![image](https://user-images.githubusercontent.com/104604359/191651654-68603490-1e6f-4874-8edf-37b7f497e9e8.png)
