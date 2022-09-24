@@ -46,26 +46,30 @@ Su fin es crear objetos sin tener que especificar su clase exacta. Esto quiere d
   <img src="https://user-images.githubusercontent.com/104604359/191872665-c783f080-c6ee-4be6-9c2f-682958f5f11f.gif" height="300px"/></p>  
   
 𓆙	_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
 <p align="center"> Diagrama de clases sin aplicar el patrón Factory Method <p>
 
 ![image](https://user-images.githubusercontent.com/104604359/191859263-2b5ec900-a605-4bc1-9f1b-1cf0ce848180.png)
 
 ![image](https://user-images.githubusercontent.com/104604359/191871859-b2d343f1-1418-45a8-96bc-b9595c076319.png)
-
 𓆙	_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+  
 <p align="center"> Diagrama de clases aplicando el patrón Factory Method <p>
 
 ![image](https://user-images.githubusercontent.com/104604359/192072700-ac71913e-6e6f-438a-9161-c839774e7227.png)
 
 ![image](https://user-images.githubusercontent.com/104604359/192072785-19d09721-a3db-429e-b24e-3cbb71df4943.png)
-
 𓆙	_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190845120-c4ff3bc4-d114-4e23-bc2e-94628823ce22.png" height="342px"/></p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190845149-f4f46c51-b46f-4ab0-b0b7-3e439563b783.png" height="305px"/></p>
+  
+𓆙	_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
+![image](https://user-images.githubusercontent.com/104604359/192074628-66588b0e-a994-4865-b66d-b286fc08cfd4.png)
 
 * * *
 ### 🐍 Unit testing
