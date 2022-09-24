@@ -43,13 +43,23 @@ Patrón creacional: Factory Method
 Su fin es crear objetos sin tener que especificar su clase exacta. Esto quiere decir que el objeto creado puede intercambiarse con flexibilidad y facilidad. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/104604359/191872665-c783f080-c6ee-4be6-9c2f-682958f5f11f.gif" height="300px"/></p>
-
+  <img src="https://user-images.githubusercontent.com/104604359/191872665-c783f080-c6ee-4be6-9c2f-682958f5f11f.gif" height="300px"/></p>  
+  
+𓆙	_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+<p align="center"> Diagrama de clases sin aplicar el patrón Factory Method <p>
 
 ![image](https://user-images.githubusercontent.com/104604359/191859263-2b5ec900-a605-4bc1-9f1b-1cf0ce848180.png)
 
 ![image](https://user-images.githubusercontent.com/104604359/191871859-b2d343f1-1418-45a8-96bc-b9595c076319.png)
 
+𓆙	_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+<p align="center"> Diagrama de clases aplicando el patrón Factory Method <p>
+
+![image](https://user-images.githubusercontent.com/104604359/192072700-ac71913e-6e6f-438a-9161-c839774e7227.png)
+
+![image](https://user-images.githubusercontent.com/104604359/192072785-19d09721-a3db-429e-b24e-3cbb71df4943.png)
+
+𓆙	_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190845120-c4ff3bc4-d114-4e23-bc2e-94628823ce22.png" height="342px"/></p>
 
@@ -65,7 +75,7 @@ Identificación de mal uso de:
   <img src="https://user-images.githubusercontent.com/104604359/190840724-6f4b4e2b-2b97-4153-9b51-c53235e62f65.png" height="350px"/></p>
   
 2. Patrón AAA.
-<p align="center"> Estructura <p>
+<p align="center"> Estructura  <p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190840867-bc50a53f-35cf-4c6b-b6de-4c74ac8659db.png" height="152px"/></p>
 
@@ -73,6 +83,7 @@ Identificación de mal uso de:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/104604359/190841530-79ba2931-62e2-4aec-8a4e-25a300bd75df.png" height="296px"/></p>
 
+𓆙	_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 #### Diseño de casos de prueba (Posición):
 
 Input: N y M
